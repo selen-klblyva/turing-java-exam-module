@@ -1,5 +1,5 @@
 package az.edu.turing;
-import java.util.Scanner;
+/* import java.util.Scanner;
 public class ValueOfVariable4App {
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
@@ -8,3 +8,5 @@ public class ValueOfVariable4App {
         System.out.printf("%.3f",y);
     }
 }
+
+ */
