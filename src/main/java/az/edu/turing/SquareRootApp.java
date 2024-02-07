@@ -1,8 +1,8 @@
 package az.edu.turing;
 
-import java.util.Scanner;
+/* import java.util.Scanner;
 
-public class SquareRootApp{
+public class SquareRootAppp {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,3 +14,5 @@ public class SquareRootApp{
         return Math.sqrt(n);
     }
 }
+
+ */
