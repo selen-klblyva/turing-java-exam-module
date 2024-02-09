@@ -1,24 +1,25 @@
 package az.edu.turing;
 
-/* import java.util.Scanner;
+import java.util.Scanner;
 
-public class TransformationApp {
-
+public class TransformationApp{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        int result=findChanges(n);
-        System.out.println(result);
+        int changes = getChangesToOne(n);
+        System.out.println(changes);
     }
-    private static int findChanges(int n) {
-        int count=0;
-        if(n%2==0){
 
+    public static int getChangesToOne(int n) {
+        int changes = 0;
+        while (n != 1) {
+            if (n % 2 == 0) {
+                n /= 2;
+            } else {
+                n += 1;
+            }
+            changes++;
         }
-        else{
-            return n+1;
-            count++;
-        }
+        return changes;
     }
 }
-*/
